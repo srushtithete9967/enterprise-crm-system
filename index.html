@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise CRM System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>CRM System</h2>
+
+        <nav>
+            <a href="#" class="active">Dashboard</a>
+            <a href="#leads">Leads</a>
+            <a href="#customers">Customers</a>
+            <a href="#pipeline">Sales Pipeline</a>
+        </nav>
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Header -->
+        <header class="header">
+            <div>
+                <h1>Dashboard</h1>
+                <p>Welcome to your CRM dashboard</p>
+            </div>
+
+            <div class="user">
+                <span>👤</span>
+                <strong>Admin</strong>
+            </div>
+        </header>
+
+
+        <!-- Dashboard Cards -->
+        <section class="cards">
+
+            <div class="card">
+                <h3>Total Leads</h3>
+                <p id="totalLeads">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Customers</h3>
+                <p id="totalCustomers">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Active Deals</h3>
+                <p id="activeDeals">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Revenue</h3>
+                <p id="revenue">₹0</p>
+            </div>
+
+        </section>
+
+
+        <!-- Leads Section -->
+        <section class="section" id="leads">
+
+            <div class="section-header">
+                <h2>Recent Leads</h2>
+                <button onclick="addLead()">+ Add Lead</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Company</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="leadTable">
+
+                </tbody>
+            </table>
+
+        </section>
+
+
+        <!-- Customers -->
+        <section class="section" id="customers">
+
+            <div class="section-header">
+                <h2>Customers</h2>
+            </div>
+
+            <div class="customer-list" id="customerList">
+
+            </div>
+
+        </section>
+
+
+        <!-- Sales Pipeline -->
+        <section class="section" id="pipeline">
+
+            <div class="section-header">
+                <h2>Sales Pipeline</h2>
+            </div>
+
+            <div class="pipeline">
+
+                <div class="pipeline-column">
+                    <h3>New</h3>
+                    <div id="newDeals"></div>
+                </div>
+
+                <div class="pipeline-column">
+                    <h3>Contacted</h3>
+                    <div id="contactedDeals"></div>
+                </div>
+
+                <div class="pipeline-column">
+                    <h3>Converted</h3>
+                    <div id="convertedDeals"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
