@@ -1,35 +1,42 @@
-# enterprise-crm-system
-A responsive Enterpri
 # Enterprise CRM
 
-Enterprise CRM is a simple web-based Customer Relationship Management system developed as an internship project.
+A web-based Enterprise CRM application developed as part of an internship project. The project provides a simple interface for managing customer-related information and CRM activities.
 
 ## Features
 
-- Customer management
-- Customer registration
-- Simple and user-friendly interface
-- Responsive web design
-- Basic CRM functionality
+* Customer registration and management
+* Clean and simple user interface
+* Interactive web pages
+* Form handling using JavaScript
+* Responsive layout
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+* **HTML5** – Structure of the application
+* **CSS3** – Styling and responsive design
+* **JavaScript** – Functionality and user interaction
 
 ## Project Structure
 
-- index.html - Main webpage
-- style.css - Styling and layout
-- script.js - JavaScript functionality
+```text
+Enterprise-CRM/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
 ## How to Run
 
-1. Download or clone this repository.
+1. Clone or download this repository.
 2. Open the project folder.
-3. Open `index.html` in a web browser.
+3. Open `index.html` in any modern web browser.
+
+## Project Purpose
+
+This project was developed to gain practical experience in frontend web development, JavaScript functionality, and building a structured web-based CRM application.
 
 ## Author
 
-Srushti Thetese CRM System built using HTML, CSS and JavaScript.
+**Srushti Thete**
